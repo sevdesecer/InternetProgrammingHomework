@@ -1,24 +1,20 @@
+.mb-4{
+    margin-bottom:0rem !important;;
+}
 .nav-link{
     color: #ffc107;
     font-style: italic;
     font-size: large;
 }
-
-.mb-4{
-    margin-bottom:0rem !important;;
+.collapse-checkbox {
+    display: none;
 }
 
-.nav-item a {
-    margin: 0.5rem;
-    padding-left:0.09rem ;
-    border-left: 0.15rem solid transparent;
-    border-left-color: #ffc107;
+.collapse-checkbox:not(:checked) ~ .collapse {
+    display: none;
 }
 
-.px-3{
-    padding-left: 0.1rem !important;
+.collapse-checkbox:checked ~ .collapse {
+    display: block;
 }
 
-.row{
-    flex-direction: column
-}
