@@ -18,3 +18,29 @@
     display: block;
 }
 
+/* Style for downloadable documents list */
+ul.documents-list {
+    list-style: none;
+    padding: 0;
+}
+
+.documents-list li {
+    margin-bottom: 10px;
+}
+
+.documents-list li a {
+    display: block;
+    padding: 10px;
+    background-color: #322f2f;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffc107;
+    transition: background-color 0.3s ease;
+}
+
+.documents-list li a:hover {
+    background-color: #e9ecef;
+}
+
+
+
