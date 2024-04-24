@@ -1,0 +1,7 @@
+.btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #ffc107;}
+
+    .form-control{
+        box-shadow: 1px 1px 1px #302d23;
+    }
