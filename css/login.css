@@ -5,3 +5,11 @@
     .form-control{
         box-shadow: 1px 1px 1px #302d23;
     }
+    .login-frame {
+        border: 2px solid #ffc107;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 400px;
+        margin: auto;
+        margin-top: 50px;
+    }

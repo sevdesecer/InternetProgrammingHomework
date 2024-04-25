@@ -24,9 +24,36 @@ body {
     padding: 0;
 }
 
-/**#Header{
-    position: fixed;
+#Header{
+    position: sticky;
+    justify-content: center;
+    align-items: center;
 }
+a{
+    color: #6b0453;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 83px;
+    box-shadow: 10px 10px 10px #ffc107;}
+
+    .student-item:hover .d-none{
+        display: block !important;
+    }
+
+    .nav-link{
+        color: #ffc107 !important;
+        transition: color 0.3s, transform 0.3s, opacity 0.3s;
+    }
+
+    .nav-link:hover{
+        color: #6b0453 !important;
+        transform: scale(1.2);
+        opacity: 0.9;
+    }
+
 
 
 

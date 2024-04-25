@@ -1,0 +1,58 @@
+.circle {
+    width: 160px;
+    height: 160px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center; /* Center the text horizontally */
+    line-height: 1.2; /* Adjust line height for vertical centering */
+}
+  
+  .circle-blue {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .circle-red {
+    background-color: orangered;
+    color: white;
+  }
+  
+  .circle-green {
+    background-color: #28a745;
+    color: white;
+  }
+
+  .circle-yellow{
+    background-color: #ffc107;
+    color: white;
+  }
+  .circle-purple{
+    background-color: purple;
+    color: white;
+  }
+
+  .image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.university-image {
+    display: block;
+    width: 50%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .university-image {
+    opacity: 0.5; /* Adjust opacity when hovering */
+}
+
+.image-container:hover {
+    opacity: 1; /* Make overlay visible on hover */
+}
