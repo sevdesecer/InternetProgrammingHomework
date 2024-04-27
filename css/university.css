@@ -9,8 +9,8 @@
     font-size: 20px;
     font-weight: bold;
     margin: 20px auto;
-    text-align: center; /* Center the text horizontally */
-    line-height: 1.2; /* Adjust line height for vertical centering */
+    text-align: center;
+    line-height: 1.2;
 }
   
   .circle-blue {
@@ -50,9 +50,15 @@
 }
 
 .image-container:hover .university-image {
-    opacity: 0.5; /* Adjust opacity when hovering */
+    opacity: 0.5; 
 }
 
 .image-container:hover {
-    opacity: 1; /* Make overlay visible on hover */
+    opacity: 1; 
+}
+
+#show-more-button{
+  background-color: #ffc107;
+  color: white;
+  margin-bottom: 0.7rem;
 }

@@ -10,6 +10,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="css/sidebar.css" />
     <link rel="stylesheet" href="css/university.css" />
   </head>
@@ -43,7 +48,7 @@
             class="d-flex flex-sm-column flex-row flex-grow-1 align-items-sm-start px-3 pt-2 text-white"
           >
             <ul
-              class="nav nav-pills flex-column flex-row flex-nowrap flex-shrink-1 flex-sm-grow-0 flex-grow-1 mb-sm-auto mb-0 align-items-sm-start"
+              class="nav nav-pills flex-column flex-row flex-nowrap flex-shrink-1 flex-sm-grow-0 flex-grow-1 mb-sm-auto mb-0 align-items-sm-start position-fixed"
             >
               <li class="nav-item">
                 <a href="home.html" class="nav-link px-sm-0 px-2">
@@ -228,13 +233,16 @@
                   research, and development, Eskişehir Technical University is
                   committed to preparing its students as the most competent and
                   competitive individuals for the future, fostering creativity
-                  and dynamism in their educational environments. Notably, the
-                  university's Aviation and Space Sciences Faculty manages the
+                  and dynamism in their educational environments.
+                </p>
+                <button id="show-more-button" type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">show more</button>
+                <div id="demo" class="collapse">
+                  Notably, the university's Aviation and Space Sciences Faculty manages the
                   operations of the international Hasan Polatkan Airport located
                   on the 2nd September Campus, where various international
                   flights by different airlines operate on different days of the
                   week.
-                </p>
+                </div>
               </div>
             </div>
             <div class="container">
