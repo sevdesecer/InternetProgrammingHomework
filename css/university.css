@@ -44,9 +44,9 @@
 
 .university-image {
     display: block;
-    width: 50%;
+    width: 65%;
     height: auto;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.2s ease;
 }
 
 .image-container:hover .university-image {
